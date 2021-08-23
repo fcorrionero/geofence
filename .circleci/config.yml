@@ -24,7 +24,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ls /home/circleci/my-project/src/
+          command: ls ~/repo
 
       # Download and cache dependencies
       - restore_cache:
